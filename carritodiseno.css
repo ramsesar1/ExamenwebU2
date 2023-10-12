@@ -98,3 +98,21 @@ body {
     width: 300px;
     height: 50px;
 }
+
+#inicio-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e98f19;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#inicio-button:hover {
+    background-color: #bb7417;
+}
+
