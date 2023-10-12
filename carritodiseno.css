@@ -14,6 +14,24 @@ body {
     transform: translateX(-50%);
     margin-top: 20px;
 }
+#btn-entiendo {
+    background-color: #e98f19;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#btn-entiendo:hover {
+    background-color: #bb7417;
+}
+
 
 #loginpanel {
     position: absolute;
