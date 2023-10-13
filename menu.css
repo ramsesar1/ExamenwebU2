@@ -65,6 +65,20 @@ body{
     z-index: 1;
 }
 
+#volverbtn {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 470px;
+    left: 1350px;
+    background-color: #e98f19;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 #txtcarro{
     position: absolute;
     display: inline-block;
@@ -75,7 +89,7 @@ body{
 #txtiniciar{
     position: absolute;
     display: inline-block;
-    margin-left: 1400px;
+    margin-left: 1470px;
     margin-top: 110px;
 }
 
@@ -414,6 +428,48 @@ body{
     background-color: rgb(33, 122, 255);
 }
 
+
+/* Media query para ajustes en pantallas más pequeñas */
+@media (max-width: 768px) {
+    #cabeza {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #elementos {
+        font-family: 'Roboto', sans-serif;
+        list-style-type: none;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #carro, #usuario, #lupita, #txtcarro, #txtiniciar {
+        position: static;
+        width: auto;
+        margin: 10px;
+        text-align: center; /* Centra el contenido de texto */
+    }
+
+    #buscador {
+        position: static;
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+        margin: 10px;
+        text-align: center; /* Centra el contenido de texto */
+    }
+
+    #cartel, #banersito, #productos, #superqueso, #soda, #papas, #familia, #solo, #sencilla, #burger, #sodaa, #fritas, #guacabaccon, #guacatxt, #lowcrab, #lowtxt, #burger2, #burger2-1, #burger2-2, #burger2-3, #burger1, #sodaa1, #fritas1, #menumostrar, #burger3, #btn1, #btn1-1, #btn2, #btn2-1, #btn3, #btn3-1, #btn4, #btn4-1, #btn5, #btn5-1, #btn6, #btn6-1, #btn7, #btn7-1, #btn8, #btn8-1 {
+        position: static;
+        width: auto;
+        margin: 10px;
+        text-align: center; /* Centra el contenido de texto */
+    }
+}
 
 
 
